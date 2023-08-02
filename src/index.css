@@ -5,9 +5,82 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  font-family: 'Poppins', sans-serif !important;
+  /* background-image: url('bg.jpg');
+  background-size: 100% 100% */
+  background-color: gray;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+.loginpage{
+  margin: 40px !important;
+  height: 200px !important;
+  border: 2px solid black;
+  padding: 10px !important;
+  font-family: 'Poppins', sans-serif !important;
+  background-color: lightskyblue;
+}
+.loginpage form input{
+  border: 1px solid black;
+}
+.loginpage form .loginpass{
+  border:1px solid black;
+}
+.pageswitch{
+  margin-left: 5px;
+  color: black;
+}
+.sitelower{
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+}
+h2{
+  margin-left: 40px;
+}
+.rowdesign{
+  margin: 40px;
+  padding: 10px;
+}
+.registerpage{
+  margin: 40px !important;
+  height: 300px !important;
+  border: 2px solid black;
+  padding: 10px !important;
+  font-family: 'Poppins', sans-serif !important;
+  background-color: lightskyblue;
+}
+.homeheader{
+  background-color: lightskyblue;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.addnote{
+  margin: 40px !important;
+  height: 600px !important;
+  border: 2px solid black;
+  padding: 10px !important;
+  font-family: 'Poppins', sans-serif !important;
+  background-color: lightskyblue;
+}
+.addnote form input{
+  border: 1px solid black;
+}
+
+.desc{
+  border: 1px solid black;
+}
+.ant-card-head-title{
+  color:white;
+}
+.notedisplaydesc{
+  height:110px;
+  width: 100%;
+  overflow:auto
+}
+.noNotes{
+  color:white;
 }
