@@ -103,7 +103,7 @@ function Home() {
             <div className='homeheader'>
                 <h2>Welcome to iNotebook</h2>
             </div>
-            <div style={{height:"100vh"}}>
+            <div>
                 <div>
                     <Menu mode="horizontal" items={[
                         {

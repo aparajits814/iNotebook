@@ -2,7 +2,6 @@
 import React, { useEffect } from 'react';
 import { Button, Form, Input, message } from 'antd';
 import { Link, useNavigate } from 'react-router-dom';
-import Sitelower from './Sitelower';
 function Login() {
     const Navigate = useNavigate();
     useEffect(() => {
@@ -31,7 +30,7 @@ function Login() {
     return (
         <>
             <h2>Welcome to iNotebook</h2>
-            <div className='loginpage' style={{ height: "100vh" }}>
+            <div className='loginpage'>
                 <Form layout='vertical' onFinish={onFinish}>
                     <Form.Item
                         label="Email"
@@ -67,7 +66,6 @@ function Login() {
                     </Form.Item>
                 </Form>
             </div>
-            <Sitelower></Sitelower>
         </>
     )
 }

@@ -84,3 +84,6 @@ h2{
 .noNotes{
   color:white;
 }
+.cont{
+  min-height: 100vh;
+}

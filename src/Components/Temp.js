@@ -19,7 +19,7 @@ function Temp() {
   }
   return (
     <>
-      <div style={{ height: "100vh" }}>
+      <div>
         <Row className='rowdesign'>
           {
             Notes.length===0 ? <h4 className='noNotes'>No Notes to Show</h4> : Notes.map((data) => {

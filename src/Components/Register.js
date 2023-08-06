@@ -29,7 +29,7 @@ function Register() {
     return (
         <>
             <h2>Welcome to iNotebook</h2>
-            <div className='registerpage' style={{height:"100vh"}}>
+            <div className='registerpage'>
                 <Form layout='vertical' onFinish={onFinish}>
                     <Form.Item
                         label="name"

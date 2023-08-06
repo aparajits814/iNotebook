@@ -5,11 +5,14 @@ import Register from './Components/Register';
 import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom';
 import Temp from './Components/Temp';
 import Addnote from './Components/Addnote';
+import Sitelower from './Components/Sitelower';
 function App() {
   return (
     <>
     <BrowserRouter>
+    <div className='cont'>
         <Routes>
+          
           <Route path="/" element={<Login />}></Route>
           <Route path="/register" element={<Register />}></Route>
           <Route path="/home" element={<ProtectedRoute><Home /></ProtectedRoute>}>
@@ -18,7 +21,10 @@ function App() {
           </Route>
           <Route path="/login" element={<Login />}></Route>
           
+          
         </Routes>
+        </div>
+        <Sitelower></Sitelower>
       </BrowserRouter>
     </>
   );

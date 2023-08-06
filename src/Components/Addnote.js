@@ -10,7 +10,7 @@ function Addnote() {
 
     
     return (
-        <div style={{ height: "100vh" }}>
+        <div>
             <div className='addnote'>
             <Form layout='vertical' onFinish={onFinish}>
                 <Form.Item
