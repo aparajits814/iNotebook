@@ -53,6 +53,12 @@ h2{
   font-family: 'Poppins', sans-serif !important;
   background-color: lightskyblue;
 }
+.registerpage form input{
+  border: 1px solid black;
+}
+.registerpage form .registerpass{
+  border:1px solid black;
+}
 .homeheader{
   background-color: lightskyblue;
   padding-top: 10px;

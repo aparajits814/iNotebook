@@ -65,7 +65,7 @@ function Register() {
                             },
                         ]}
                     >
-                        <Input.Password className='loginpass' />
+                        <Input.Password className='registerpass' />
                     </Form.Item>
 
                     <Form.Item>
