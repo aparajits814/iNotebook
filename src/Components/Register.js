@@ -1,7 +1,6 @@
 import React, { useEffect } from 'react'
 import { Button, Form, Input,message } from 'antd';
 import { Link, useNavigate } from 'react-router-dom';
-import Sitelower from './Sitelower';
 function Register() {
     const Navigate=useNavigate();
     useEffect(()=>{
@@ -77,7 +76,6 @@ function Register() {
                     </Form.Item>
                 </Form>
             </div>
-            <Sitelower></Sitelower>
         </>
     )
 }
